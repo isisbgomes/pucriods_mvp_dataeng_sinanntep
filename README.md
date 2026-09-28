@@ -21,8 +21,9 @@ Outra pergunta que poderia ser respondida seria se o NTEP precisa ser atualizado
 **Importação de forma paralelizada**
 
 - Importação de dados .dbc do ftp datasus que arquivam documentos do SINAN desde 2008, caso estejam disponíveis (adotamos um ano de lag de implementação do sistema)
-- Download de tabelas com agravos de interesse do NTEP:
-- Observação 1: as condições de Chikungunya e de Zika foram adicionadas por dedução à lista de interesse — elas não estão previstas na última atualização do NTEP em 2007, embora as doenças tenham se tornado condições de interesse de saúde pública a partir de 2016 e sejam transmitidas pelo mesmo vetor da dengue, que está no NTEP. Observação 2: Foram incluídos acidente de trabalho com material biológico (ACBI), mas excluídos Acidente de trabalho sem especificação (ACGR).
+- Download de tabelas com 18 agravos de interesse do NTEP:  "DENGUE", "CHIKUNGUNYA", "ZIKA", "TUBERCULOSE", "MENINGITE",
+    "ACIDENTE DE TRABALHO COM MATERIAL BIOLOGICO", "VIOLENCIA", "HEPATITES", "CANCER RELACIONADO AO TRABALHO", "DERMATOSE RELACIONADO AO TRABALHO", "INTOXICACAO EXOGENA", "LEPTOSPIROSE", "LER/DORT", "MALARIA", "PAIR", "PNEUMOCONIOSE", "TETANO ACIDENTAL", "TRANSTORNO MENTAL RELACIONADO AO TRABALHO".
+- Observação 1: as condições de Chikungunya e de Zika foram adicionadas por dedução à lista de interesse — elas não estão previstas na última atualização do NTEP em 2007, embora as doenças tenham se tornado condições de interesse de saúde pública a partir de 2016 e sejam transmitidas pelo mesmo vetor da dengue, que está no NTEP. Observação 2: Foram incluídos acidente de trabalho com material biológico (ACBI), mas excluídos Acidente de trabalho sem especificação (ACGR). Não foi possível incluir Leishmaniose, pela subcategorização feita pelo SINAN.
 - Depois, os dados foram descompactados em .dbf, parseados, categorizados e salvos em formato parquet (apenas dados das colunas de interesse, para evitar que o sistema caísse por capacidade de processamento. 
 
 As colunas de interesse, agrupadas por camada de processamento, são:
