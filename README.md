@@ -12,10 +12,14 @@ O NTEP existe desde 2007, quando a Lei 11.430/2006 entrou em vigor, e é operaci
 O SINAN é um sistema de notificações geral do Ministério da Saúde, que coleta dados de doenças e condições de interesse de todos os estabelecimentos de assistência à saúde do Brasil, com regularidade substancial, variável por condição, com no máximo 60 dias de atraso da identificação da condição. As secretarias municipais e estaduais de saúde são obrigadas legalmente a apresentar dados dessa natureza ao Ministério da Saúde. A lista atualizada de condições que o SINAN registra foi definido pela PRT MS/GM 204/2016, Anexo 1.
 
 **Objetivo principal**
-Cruzar os dados do SINAN com o NTEP permite avaliar o nível de adoecimento limite geral da população e estabelecer um teto para notificações acidentais caso todas as notificações ocorressem no ambiente de trabalho.  
+Cruzar os dados do SINAN com o NTEP permite avaliar o nível de adoecimento limite geral da população e estabelecer um teto hipotético para notificações acidentais, caso todas as notificações registradas no sistema de saúde ocorressem por razões associadas ao trabalho e seu ambiente. Análises nessa linha poderiam incluir dados demográficos sobre a população acometida, como sexo e raça, para mapear vulnerabilidades específicas.
 
-**Objetivo secundário**
-Outra pergunta que poderia ser respondida seria se o NTEP precisa ser atualizado dado que a lista de definições do SINAN é de 2016. Por exemplo, o NTEP prevê associação de uma única arbovirose, Dengue, com alguns CNAES, mas não de outras. Dado que o vetor da doença é o mesmo e a forma de exposição seria relacionada ao trabalho, o NTEP poderia ser ajustado para incluir também Chikungunya e Zika associado às mesmas ocupações que ampliam o risco para Dengue. Os dados de Chikungunya e Zika constam no SINAN, mas não no NTEP.
+**Objetivo Secundário**
+Outra pergunta que poderia ser respondida seria se o NTEP precisa ser atualizado e confrontado com as práticas de registro de agravos obrigatórios no sistema de saúde, dado que a lista de definições do SINAN é de 2016. 
+
+Objetivo secundário 1. Por exemplo, o NTEP prevê associação de uma única arbovirose, Dengue, com alguns CNAES, mas não de outras. Dado que o vetor da doença é o mesmo e a forma de exposição seria relacionada ao trabalho, o NTEP poderia ser ajustado para incluir também Chikungunya e Zika associado às mesmas ocupações que ampliam o risco para Dengue. Os dados de Chikungunya e Zika constam no SINAN, mas não no NTEP.
+
+Objetivo secundário 2. Outro exemplo seria caso o Decreto registrasse códigos CID que estivessem em discordância ou não gerassem notificações sensíveis, que pudessem ser cruzadas com os sistemas previdenciários, como indicador sentinela de acidentes ou agravos relacionados ao trabalho.  
 
 **Coletando Dados do FTP do SINAN**
 **Importação de forma paralelizada**
