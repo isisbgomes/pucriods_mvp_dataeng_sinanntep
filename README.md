@@ -1,6 +1,6 @@
 _pucriods_mvp_dataeng_sinanntep_
 
-# Projeto de MVP sobre dados do Sistema Nacional de Agravos de Notificação Obrigatória (SINAN) vs. Nexo Técnico Epidemiológico Previdenciário (NTEP)
+# Projeto de MVP de Engenharia de Dados usando o Sistema Nacional de Agravos de Notificação Obrigatória (SINAN) vs. Nexo Técnico Epidemiológico Previdenciário (NTEP)
 
 O objetivo deste MVP é criar um pipeline de dados que permita avaliar a notificação no SUS de dados de doenças e condições de notificação obrigatória, entre acidentes de trabalho e outras condições previstas no Nexo Técnico Epidemiológico Previdenciário (NTEP).
 
