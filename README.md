@@ -41,8 +41,7 @@ CAMADA SILVER: Inclui colunas harmonizadas em todas as tabelas, com
 - "CAT": categoria de acidente de trabalho
 
 CAMADA GOLD: Inclui dados derivados
-- Categoria de Capítulo de CID com as seleções de interesse do NTEP: via join com o dicionário de dados gerado antes
-- Enriquecimento geográfco: Avaliação a nível de Brasil, região, estado, e município
+- Enriquecimento por categoria de Capítulo de CID e Categoria de interesse do NTEP (via join com o dicionário de dados json gerado antes), com filtragem
 
 **Categorias de análise**
 Após criação de tabelas em esquema estrela do tipo dimensão (de notificação, de local de notificação, e de pessoa notificadora) mais tabela a fato resultante dessas dimensões, foram analisados aspectos descritivos básicos como:
