@@ -50,7 +50,17 @@ CAMADA GOLD: Inclui dados derivados
 
 **Categorias de análise**
 Após criação de tabelas em esquema estrela do tipo dimensão (de notificação, de local de notificação, e de pessoa notificadora) mais tabela a fato resultante dessas dimensões, foram analisados aspectos descritivos básicos como:
-1. Aspectos de risco: Categorias do NTEP mais notificadas
+1. Aspectos de risco: Categorias do NTEP mais notificadas, em série histórica
 2. Aspectos de regionalidade: UF, Região, 
 3. Aspectos da pessoa: Sexo (Feminino, Masculino, Em Branco, Ignorado) e Raça (Ign/Branco, Amarela, Branca, Parta, Preta, Indígena, Ignorado)
-4. Aspectos de notificação de Comunicação de Acidente de Trabalho (CAT), para quando este campo estiver ativo na ficha respectiva
+
+**Estruturação da Base de Dados e do ETL**
+Foram criadas 3 tabelas dimensão (notificação, notificante, local de notificação), e uma fato com chave PK sintética.
+A documentação dos campos dessas tabelas foi realizada nas próprias Delta Table, bem como das tabelas silver e gold (ver notebook z. Documentação). 
+
+**Investigação e Resposta aos objetivos**
+A investigação da qualidade dos dados foi feita no notebook 2, avaliando as categorias de agravos perdidas da camada Silver para a Gold. 
+A resposta aos objetivos listados acima foi dada nos notebooks 3 e 4.
+
+**Autoavaliação**
+A autoavaliação foi feita no notebook 4. Análise.
