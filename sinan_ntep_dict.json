@@ -1,0 +1,329 @@
+{
+  "_metadata": {
+    "fonte": "Decreto nº 6.042/2007, Anexo II - Lista B (Nexo Técnico Epidemiológico Previdenciário - NTEP)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6042.htm",
+    "descricao": "Cruzamento entre as categorias de agravos do SINAN e as entidades mórbidas listadas no Anexo II do Decreto do NTEP",
+    "estrutura": {
+      "I": "código(s) CID-10 completo(s) citados no Decreto para a doença/entidade mórbida",
+      "II": "capítulo da CID-10 correspondente (conforme classificação oficial, que coincide com os 'Grupos' nominados no próprio Decreto)"
+    }
+  },
+  "Acidente de Trabalho": {
+    "I": [
+      "S00-S09",
+      "S20-S29",
+      "S30-S39",
+      "S40-S49",
+      "S50-S59",
+      "S60-S69",
+      "S70-S79",
+      "S80-S89",
+      "S90-S99",
+      "T90-T98"
+    ],
+    "II": "Capítulo XIX - Lesões, envenenamento e algumas outras consequências de causas externas (S00-T98)",
+    "presente_no_NTEP": true,
+    "observacao": "Conceito geral do Decreto (art. 337); códigos extraídos das tabelas de intervalo CID-10/CNAE usadas para cálculo do FAP no Grupo XIX."
+  },
+  "Acidente de Trabalho com Exposição a Material Biológico": {
+    "I": [
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true,
+    "observacao": "Hepatites virais e HIV, listados no Decreto como decorrentes de exposição ocupacional a sangue, seus derivados ou material biológico contaminado (nota Z57.8)."
+  },
+  "Câncer Relacionado ao Trabalho": {
+    "I": [
+      "C16",
+      "C22.3",
+      "C25",
+      "C30",
+      "C31",
+      "C32",
+      "C34",
+      "C40",
+      "C44",
+      "C45",
+      "C67",
+      "C91",
+      "C92",
+      "C93",
+      "C94",
+      "C95"
+    ],
+    "II": "Capítulo II - Neoplasias [tumores] (C00-D48)",
+    "presente_no_NTEP": true,
+    "observacao": "C45 tratado como categoria inteira (mesotelioma em qualquer localização), conforme Decreto (C45.-), corrigido de subcódigos C45.0/C45.1/C45.2 após conferência do texto do Decreto."
+  },
+  "Dermatose Relacionada ao Trabalho": {
+    "I": [
+      "L08.9",
+      "L23.0",
+      "L23.1",
+      "L23.2",
+      "L23.3",
+      "L23.4",
+      "L23.5",
+      "L23.6",
+      "L23.7",
+      "L23.8",
+      "L24.0",
+      "L24.1",
+      "L24.2",
+      "L24.3",
+      "L24.4",
+      "L24.5",
+      "L24.6",
+      "L24.7",
+      "L24.8",
+      "L50.0",
+      "L50.2",
+      "L50.6",
+      "L55",
+      "L56.2",
+      "L56.3",
+      "L56.8",
+      "L56.9",
+      "L57.0",
+      "L57.8",
+      "L58.0",
+      "L58.1",
+      "L58.9",
+      "L59.9",
+      "L70.8",
+      "L72.8",
+      "L81.4",
+      "L81.5",
+      "L81.8",
+      "L85.1",
+      "L98.4",
+      "T33",
+      "T34"
+    ],
+    "II": "Capítulo XII - Doenças da pele e do tecido subcutâneo (L00-L99)",
+    "presente_no_NTEP": true,
+    "observacao": "T33/T34 (geladuras) são tecnicamente do Capítulo XIX, mas o Decreto os classifica dentro do agrupamento de doenças de pele."
+  },
+  "Dengue (até 2013 / de 2014 em diante)": {
+    "I": [
+      "A90"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true,
+    "observacao": "Decreto cita apenas 'Dengue Clássico' (A90); não há menção a A91 (Dengue hemorrágica)."
+  },
+  "Febre Amarela": {
+    "I": [
+      "A95"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true
+  },
+  "Hepatite": {
+    "I": [
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true
+  },
+  "Intoxicação Exógena": {
+    "I": [
+      "T51.8",
+      "T52.1",
+      "T52.2",
+      "T52.4",
+      "T53.0",
+      "T53.1",
+      "T53.2",
+      "T53.3",
+      "T53.4",
+      "T53.5",
+      "T53.6",
+      "T53.7",
+      "T53.9",
+      "T54.0",
+      "T54.1",
+      "T54.2",
+      "T54.3",
+      "T54.9",
+      "T56.0",
+      "T56.1",
+      "T56.2",
+      "T56.3",
+      "T56.8",
+      "T56.9",
+      "T57.0",
+      "T57.2",
+      "T57.3",
+      "T58",
+      "T59.6",
+      "T60.0",
+      "T60.1",
+      "T60.2",
+      "T65.3",
+      "T65.4",
+      "T65.8"
+    ],
+    "II": "Capítulo XIX - Lesões, envenenamento e algumas outras consequências de causas externas (S00-T98)",
+    "presente_no_NTEP": false,
+    "observacao": "Agravo notificável no SINAN, mas NÃO é uma entidade própria no Anexo II do Decreto 6.042/2007 (conferido: não há Grupo/tabela específica para códigos T5x/T6x no Decreto). Intoxicação ocupacional, quando reconhecida como acidente do trabalho, é enquadrada no Grupo XIX genérico ('Acidente de Trabalho', já presente neste dicionário). Incluída aqui apenas como referência comparativa, como Chikungunya e Zika."
+  },
+  "Leishmaniose Tegumentar Americana": {
+    "I": [
+      "B55.1",
+      "B55.2"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true,
+    "observacao": "Apenas as formas cutânea (B55.1) e cutâneo-mucosa (B55.2). A Leishmaniose Visceral (B55.0) NÃO consta no Decreto."
+  },
+  "Leptospirose": {
+    "I": [
+      "A27"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true
+  },
+  "Ler/Dort": {
+    "I": [
+      "G54.0",
+      "G56.0",
+      "G56.1",
+      "G56.2",
+      "G56.3",
+      "G56.8",
+      "G57.3",
+      "M19",
+      "M25.5",
+      "M53.1",
+      "M65.3",
+      "M65.4",
+      "M65.8",
+      "M65.9",
+      "M70.0",
+      "M70.1",
+      "M70.2",
+      "M70.3",
+      "M70.4",
+      "M70.5",
+      "M70.8",
+      "M70.9",
+      "M72.0",
+      "M75.0",
+      "M75.1",
+      "M75.2",
+      "M75.3",
+      "M75.5",
+      "M75.8",
+      "M75.9",
+      "M77.0",
+      "M79.1",
+      "M79.8",
+      "M89.5",
+      "M93.1",
+      "M93.8"
+    ],
+    "II": [
+      "Capítulo VI - Doenças do sistema nervoso (G00-G99)",
+      "Capítulo XIII - Doenças do sistema osteomuscular e do tecido conjuntivo (M00-M99)"
+    ],
+    "presente_no_NTEP": true,
+    "observacao": "Único agravo do SINAN que se distribui em dois capítulos CID distintos no Decreto, refletindo o caráter neuromuscular das LER/DORT."
+  },
+  "Malária": {
+    "I": [
+      "B50",
+      "B51",
+      "B52",
+      "B53",
+      "B54"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true
+  },
+  "PAIR Relacionado ao Trabalho": {
+    "I": [
+      "H83.3",
+      "H91.0",
+      "H93.2"
+    ],
+    "II": "Capítulo VIII - Doenças do ouvido e da apófise mastóide (H60-H95)",
+    "presente_no_NTEP": true,
+    "observacao": "PAIR = Perda Auditiva Induzida por Ruído Relacionada ao Trabalho."
+  },
+  "Pneumoconiose Relacionada ao Trabalho": {
+    "I": [
+      "J60",
+      "J61",
+      "J62.8",
+      "J63.2",
+      "J63.4",
+      "J63.5",
+      "J63.8",
+      "J65",
+      "J66",
+      "J67",
+      "J99.1"
+    ],
+    "II": "Capítulo X - Doenças do aparelho respiratório (J00-J99)",
+    "presente_no_NTEP": true,
+    "observacao": "J99.1 (Síndrome de Caplan) é referenciado também no Grupo XIII (M05.3) do Decreto, mas seu código CID principal está no Capítulo X. J66 (doenças de vias aéreas por poeira orgânica específica) e J67 (pneumonite de hipersensibilidade por poeira orgânica) adicionados após conferência com o texto do Decreto — não constavam na versão anterior deste dicionário."
+  },
+  "Febre de Chikungunya": {
+    "I": [
+      "A92.0"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": false,
+    "observacao": "Arbovirose do SINAN NÃO prevista no Decreto 6.042/2007 (o Decreto é anterior à circulação do vírus Chikungunya no Brasil, introduzido em 2014). Incluída aqui apenas como referência comparativa."
+  },
+  "Zika Vírus": {
+    "I": [
+      "A92.8"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": false,
+    "observacao": "Arbovirose do SINAN NÃO prevista no Decreto 6.042/2007. CID-10 A92.8 (Outras febres virais transmitidas por mosquitos) é o código usado pelo SINAN/Ministério da Saúde para notificação de Zika, já que não havia código dedicado na CID-10 original; a OMS posteriormente criou o código de emergência U06.9. Incluída aqui apenas como referência comparativa."
+  },
+  "Tétano Acidental": {
+    "I": [
+      "A35"
+    ],
+    "II": "Capítulo I - Algumas doenças infecciosas e parasitárias (A00-B99)",
+    "presente_no_NTEP": true,
+    "observacao": "O Decreto lista apenas o tétano em geral (A35 - circunstâncias de acidente do trabalho); não há menção ao Tétano Neonatal (A33)."
+  },
+  "Transtorno Mental Relacionado ao Trabalho": {
+    "I": [
+      "F02.8",
+      "F05.0",
+      "F06",
+      "F07",
+      "F09",
+      "F10.2",
+      "F32",
+      "F43",
+      "F48.0",
+      "F48.8",
+      "F51.2",
+      "Z73.0"
+    ],
+    "II": "Capítulo V - Transtornos mentais e comportamentais (F00-F99)",
+    "presente_no_NTEP": true,
+    "observacao": "Z73.0 (Síndrome de Burnout) é tecnicamente do Capítulo XXI, mas o Decreto o classifica dentro do agrupamento de transtornos mentais. F06, F07 e F43 tratados como categorias inteiras (F06.-, F07.-, F43.-), corrigido de subcódigos específicos (F06.7; F07.0/F07.8; F43.1) após conferência com o texto do Decreto."
+  }
+}
